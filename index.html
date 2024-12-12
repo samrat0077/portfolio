@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya singh - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home">
+                        <span class="logo-text">Aditya</span>
+                        <span class="logo-dot">.</span>
+                    </a>
+                </div>
+                
+                <div class="nav-elements">
+                    <ul class="nav-links">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    
+                    <div class="nav-actions">
+                        <a href="resume.pdf" class="nav-btn" download>
+                            <i class="fas fa-download"></i>
+                            <span>Resume</span>
+                        </a>
+                        <button class="theme-toggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <button class="mobile-menu-btn" aria-label="Toggle menu">
+                            <span class="hamburger"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="mobile-menu">
+            <ul class="mobile-nav-links">
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-nav-footer">
+                <a href="resume.pdf" class="mobile-nav-btn" download>
+                    <i class="fas fa-download"></i>
+                    <span>Download Resume</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-background"></div>
+            <div id="particles-js"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting">Welcome to my world</span>
+                    <h1 class="glitch" data-text="Hi, I'm Aditya Singh">Hi, I'm Aditya Singh</h1>
+                    <div class="typing-container">
+                        <p class="typing-text"></p>
+                    </div>
+                    <p class="hero-description">Turning ideas into elegant solutions through code</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="cta-button primary">
+                            <span>View My Work</span>
+                            <svg class="arrow" width="22" height="22" viewBox="0 0 22 22">
+                                <path d="M10 6L15.2929 11.2929C15.6834 11.6834 15.6834 12.3166 15.2929 12.7071L10 18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="cta-button secondary">
+                            <span>Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrows">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-background"></div>
+            <div class="about-container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Passionate Developer & Problem Solver</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="profile-container">
+                        <div class="profile-img-wrapper">
+                            <img src="profile.jpg" alt="Aditya Singh" class="profile-img">
+                            <div class="profile-overlay">
+                                <div class="social-links">
+                                    <a href="https://github.com/samrat0077" class="social-link" title="GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/adityasingh07s/" class="social-link" title="LinkedIn">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://twitter.com/adityasamrat_07" class="social-link" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-links">
+                            <a href="resume.pdf" class="resume-btn" download>
+                                <i class="fas fa-download"></i> Download Resume
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        <div class="bio-text">
+                            <p class="highlight-text">
+                                A dedicated Software Engineer with a passion for creating innovative solutions and 
+                                transforming complex problems into elegant, efficient code.
+                            </p>
+                            <p class="description-text">
+                                With expertise in both frontend and backend development, I specialize in building 
+                                scalable applications using modern technologies. My approach combines technical excellence 
+                                with creative problem-solving to deliver exceptional results.
+                            </p>
+                        </div>
+
+                        <div class="experience-section">
+                            <h3>Experience Highlights</h3>
+                            <div class="experience-items">
+                                <div class="experience-item">
+                                    <i class="fas fa-code"></i>
+                                    <h4>Full Stack Development</h4>
+                                    <p>Building end-to-end web applications with modern technologies</p>
+                                </div>
+                                <div class="experience-item">
+                                    <i class="fas fa-robot"></i>
+                                    <h4>Machine Learning</h4>
+                                    <p>Implementing ML solutions for real-world problems</p>
+                                </div>
+                                <div class="experience-item">
+                                    <i class="fas fa-database"></i>
+                                    <h4>Database Design</h4>
+                                    <p>Creating efficient and scalable database architectures</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-section">
+                            <h3>Technical Skills</h3>
+                            <div class="skills-container">
+                                <div class="skill-category">
+                                    <h4>Frontend</h4>
+                                    <div class="skill-items">
+                                        <div class="skill-item" data-skill="HTML/CSS">
+                                            <i class="fab fa-html5"></i>
+                                            <span class="skill-name">HTML/CSS</span>
+                                            <div class="skill-level" style="width: 90%"></div>
+                                        </div>
+                                        <div class="skill-item" data-skill="JavaScript">
+                                            <i class="fab fa-js"></i>
+                                            <span class="skill-name">JavaScript</span>
+                                            <div class="skill-level" style="width: 85%"></div>
+                                        </div>
+                                        <div class="skill-item" data-skill="React">
+                                            <i class="fab fa-react"></i>
+                                            <span class="skill-name">React</span>
+                                            <div class="skill-level" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Backend</h4>
+                                    <div class="skill-items">
+                                        <div class="skill-item" data-skill="Java">
+                                            <i class="fab fa-java"></i>
+                                            <span class="skill-name">Java</span>
+                                            <div class="skill-level" style="width: 90%"></div>
+                                        </div>
+                                        <div class="skill-item" data-skill="Python">
+                                            <i class="fab fa-python"></i>
+                                            <span class="skill-name">Python</span>
+                                            <div class="skill-level" style="width: 95%"></div>
+                                        </div>
+                                        <div class="skill-item" data-skill="Node.js">
+                                            <i class="fab fa-node-js"></i>
+                                            <span class="skill-name">Node.js</span>
+                                            <div class="skill-level" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            </div>
+            <div class="project-grid">
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <img src="image/facerec.jpg" alt="Face Recognition System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Recognition System</h3>
+                        <p>The Face Recognition System using Python and Firebase integrates computer vision with cloud-based database management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <img src="image/hatespeech.jpg" alt="Hate Speech Detection Model">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hate Speech Detection Model</h3>
+                        <p>Detecting hate speech through machine learning algorithms presents a promising avenue for categorizing offensive language online.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="image/indiares.jpg" alt="Indian Restaurant">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Indian Restaurant</h3>
+                        <p>The Restaurant Website is a user-friendly, responsive platform designed to showcase a restaurant's menu, services, and ambiance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">SCSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-background"></div>
+            <div class="contact-container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's create something amazing together</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>adiyasamrat19682002@gmail.com</p>
+                            <a href="mailto:adiyasamrat19682002@gmail.com" class="contact-link">Send a message</a>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>Greater Noida, India</p>
+                            <a href="#" class="contact-link">View on map</a>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+91 7983953515</p>
+                            <a href="tel:+917983953515" class="contact-link">Call me</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" name="name" id="name" required>
+                                    <label for="name">Your Name</label>
+                                    <span class="input-highlight"></span>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" name="email" id="email" required>
+                                    <label for="email">Your Email</label>
+                                    <span class="input-highlight"></span>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" name="subject" id="subject" required>
+                                <label for="subject">Subject</label>
+                                <span class="input-highlight"></span>
+                            </div>
+                            <div class="input-group">
+                                <textarea name="message" id="message" required></textarea>
+                                <label for="message">Your Message</label>
+                                <span class="input-highlight"></span>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="social-section">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/samrat0077" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/adityasingh07s/" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/adityasamrat_07" class="social-icon" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/yourusername" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-logo">Aditya Singh</h3>
+                <p class="footer-description">
+                    A passionate developer creating innovative solutions for the web and beyond.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="footer-social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="footer-social-link" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <nav class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <div class="footer-contact">
+                    <p><i class="fas fa-envelope"></i> adiyasamrat19682002@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9084740430</p>
+                    <p><i class="fas fa-map-marker-alt"></i> INDIA</p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="footer-newsletter">
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <p class="newsletter-info">Subscribe to receive updates and news.</p>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; <span id="current-year"></span> Aditya Singh. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
